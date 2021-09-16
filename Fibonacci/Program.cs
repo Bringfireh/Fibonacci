@@ -94,7 +94,7 @@ namespace Fibonacci
             fddt.FibonacciDouble();
             Console.WriteLine(" ");
 
-            //Integer and Long or Big Integer will not handle the series properly. the number will wrap around and start with the minimum value, -2^31, or -2,147,483,648.
+            //Integer and Long or Big Integer will not handle the series properly. the number will wrap around and start with the minimum value, -2^31, or -2,147,483,648 etc.
             //So you will always have negative values...
             //So for a Fibonacci Series use Double Datatype.
         }
