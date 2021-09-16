@@ -24,7 +24,8 @@ namespace Fibonacci
 
             for (int x = 0; x <= 100; x++)
             {
-                Console.Write(F[x] + ",");
+                string delimiter = (x == 100)?"." :",";
+                Console.Write(F[x] + delimiter);
             }
         }
         public void FibonacciLong()
@@ -43,7 +44,8 @@ namespace Fibonacci
 
             for (int x = 0; x <= 100; x++)
             {
-                Console.Write(F[x] + ",");
+                string delimiter = (x == 100) ? "." : ",";
+                Console.Write(F[x] + delimiter);
             }
         }
         public void FibonacciDouble()
@@ -62,7 +64,8 @@ namespace Fibonacci
 
             for (int x = 0; x <= 100; x++)
             {
-                Console.Write(F[x] + ",");
+                string delimiter = (x == 100) ? "." : ",";
+                Console.Write(F[x] + delimiter);
             }
         }
     }
